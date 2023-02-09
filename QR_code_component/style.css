@@ -24,30 +24,30 @@ body {
 }
 
 img {
-    width: 260px;
-    border-radius: 15px;
-    margin: 15px;
+  width: 270px;
+  border-radius: 10px;
+  margin: 15px;
 }
 .card_img {
-justify-content: center;
+  justify-content: center;
 }
 
 .card_text {
-    justify-content: center;
-    padding: 10px;
+  justify-content: center;
+  padding: 10px;
 }
 
 h1 {
-    margin-bottom: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
 }
 
 p {
-    font-size: 15px;
-    padding: 20px;
-    color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  padding: 20px;
+  color: hsl(220, 15%, 55%);
 }
 
 .attribution {
