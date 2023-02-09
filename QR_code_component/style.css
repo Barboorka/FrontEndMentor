@@ -9,13 +9,20 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: hsl(212, 45%, 89%);
+  background-color: #fff;
   font-family: "Outfit", sans-serif;
 }
 
 .card {
+  width: 375px;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card_bcg {
   position: relative;
-  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
   width: 300px;
   height: 500px;
   border-radius: 15px;
@@ -23,13 +30,14 @@ body {
   text-align: center;
 }
 
+.card_img {
+  justify-content: center;
+}
+
 img {
   width: 270px;
   border-radius: 10px;
   margin: 15px;
-}
-.card_img {
-  justify-content: center;
 }
 
 .card_text {
@@ -57,4 +65,10 @@ p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-color: hsl(212, 45%, 89%);
+  }
 }
